@@ -14,7 +14,7 @@ datalength=length(OF);
 
 % load input data
 
- load'inputdata'
+ load('inputdata')
 
  pc=inputdata.pc;                            % chamber pressure
  casename=inputdata.casename;
